@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+
+body{
+  margin: 0px;
+  background-color: rgba(0,0,0,1)
+}
+#logo{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+#carro{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+}
+#cactus{
+  color: white;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 10px 0px;
+}
+#sub{
+  color: white;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0px;
+}
+.gradient{
+  height: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(255, 0, 0, 0.5));
+}
+.subscribe{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.form{
+  background-color: rgb(226, 59, 59);
+  display: block;
+  position: relative;
+  margin: 150px;
+  padding: 50px;
+  font-family: Montserrat, sans-serif;
+  width: 200px;
+  height: 200px;
+}
+.input{
+  margin: 10px auto;
+}
