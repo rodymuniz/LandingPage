@@ -1,12 +1,12 @@
 /* Import Montserrat font from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
 
-/* Formatação para body */
+/* Formatação para body
 body{
   margin: 0px;
   background-color: rgba(0,0,0,1)
 }
-/* Formatação para a primeira seção onde aparece o carro e o logo da Citroën */
+/* Formatação para a primeira seção onde aparece o carro e o logo da Citroën
 .first{
   width: 100%;
   height: 800px;
@@ -46,7 +46,7 @@ body{
   background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(255, 0, 0, 0.5));
 }
 
-/* Segunda seção onde fica o slide show e o formulário */
+/* Segunda seção onde fica o slide show e o formulário
 .subscribe{
   background-color: rgba(255, 0, 0, 0.5);
   display: block;
@@ -69,7 +69,7 @@ body{
   color: white;
 }
 
-/* Parte do Slideshow */
+/* Parte do Slideshow
 #gallery{
   width: 600px;
   height: 400px;
@@ -78,7 +78,7 @@ body{
 .imgs{
   display: none;
 }
-/* Animação do slide */
+/* Animação do slide
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -95,7 +95,7 @@ body{
   from {opacity: .4}
   to {opacity: 1}
 }
-/* Botão da Google */
+/* Botão da Google
 .g-signin2{
   height: 50px;
   width: 200px;
@@ -115,4 +115,4 @@ body{
 }
 .input{
   margin: 10px auto;
-}
+} */
