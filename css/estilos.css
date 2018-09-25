@@ -20,6 +20,10 @@
   text-align: justify;
 }
 
+.btn-primary {
+  background-color: #ff9102 !important;
+  border: none !important;  
+}
 
 
 
