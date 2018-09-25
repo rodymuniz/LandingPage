@@ -1,7 +1,7 @@
 	<?php
-$host = "%";
-$userName = "citroen";
-$password = "fiap2018";
+$host = "localhost";
+$userName = "chris";
+$password = "123456";
 $dbName = "citroen";
  
 // Create database connection

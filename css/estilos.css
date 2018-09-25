@@ -21,10 +21,14 @@
 }
 
 .btn-primary {
-  background-color: #ff9102 !important;
+  background-color: #EB6428 !important;
   border: none !important;  
 }
 
+
+#intro { 
+  padding-bottom: 50px;
+ }
 
 
 /* Formatação para body
