@@ -1,0 +1,2 @@
+[16-May-2018 17:16:46 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/phuzion/public_html/modules/cadastro/envia_leads.php on line 59
+[16-May-2018 17:17:11 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/phuzion/public_html/modules/cadastro/envia_leads.php on line 59

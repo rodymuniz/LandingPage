@@ -16,15 +16,19 @@
 </head>
 
 <body class="text-center">
-	<div class="jumbotron jumbotron-fluid bg-dark text-white">
+	<div class="jumbotron jumbotron-fluid text-white" style="background-color:#17757c">
+
+	<div class="header" style="margin-bottom: 15px;"
 		<div class="container">
 			<img src="./imagens/logo.png" alt="Citroën" id="logo" height="100" width="170"><br><br>
-			<h1>Citroën C4 Cactus 2018</h1>
-			<p>O SUV COMPACTO MAIS RÁPIDO DO BRASIL</p>
-			<img src="./imagens/cactus.png" alt="Citroën C4 Cactus" id="carro" height="80%" width="80%">
+			<h1>NOVO SUV CITROOËN C4 CACTUS</h1>
+			<p>DESIGN, TECNOLOGIA, CONECTIVIDADE E CONFORTO</p>
 		</div>
 	</div>
 
+	<div id="intro" style="padding-bottom: 50px; padding-top: 10px">
+		<img src="./imagens/cactus-background.jpg" alt="Citroën C4 Cactus" id="carro" width="100%">
+	</div>
 	<!-- <section class="first">
 
 		<img src="./imagens/logo.png" alt="Citroën" id="logo" height="100" width="170">
@@ -74,6 +78,85 @@
 			<br><input type="submit" name="submit" value="Se Inscrever" onclick="alert('Você clicou!')">
 		</form> -->
 
+
+
+
+	<div class="jumbotron jumbotron-fluid text-white" style="background: #17757c">
+		<div class="container">
+			<h1>Encontre as concessionárias e feiras mais próximas e concorra a brinde exclusivos!</h1>
+			<p style="margin-bottom: 45px">Baixe Gratuitamete o aplicativo MyCactus!</p>
+			<div class="row">
+			<div class="col">
+				<div class="card bg-white text-dark col m-0">
+					<div class="card-body">
+						<h5 class="card-title">Inscreva-se</h5>
+
+
+						 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+
+
+            <form class="contato" method="POST" action="" enctype="multipart/form-data" id="contact-form" >
+          
+                <div class="form-group">
+								<label for="inputNome">Nome</label>
+								<input name="your_name" type="text" class="form-control" id="your_name" placeholder="Digite seu Nome">
+							</div>
+							<div class="form-group">
+								<label for="inputEmail">E-mail</label>
+								<input type="your_email" class="form-control" id="your_email" placeholder="Digite seu E-mail">
+							</div>
+							<div class="form-group">
+								<label for="inputDataNascimento">Data de Nascimento</label>
+								<input name="your_date" type="date" class="form-control" id="your_dates">
+							</div>
+							<button type="submit" class="btn btn-primary col">Enviar</button>
+      
+            </form>
+            <div class="response_msg"></div>
+
+
+          </div>
+						
+
+						<!-- FORMULARIO ANTERIOR 
+
+						<form class="text-left">
+							<div class="form-group">
+								<label for="inputNome">Nome</label>
+								<input type="text" class="form-control" id="inputNome" placeholder="Digite seu Nome">
+							</div>
+							<div class="form-group">
+								<label for="inputEmail">E-mail</label>
+								<input type="email" class="form-control" id="inputEmail" placeholder="Digite seu E-mail">
+							</div>
+							<div class="form-group">
+								<label for="inputDataNascimento">Data de Nascimento</label>
+								<input type="date" class="form-control" id="inputDataNascimento">
+							</div>
+							<button type="submit" class="btn btn-primary col">Enviar</button>
+						</form> -->
+
+
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="col">
+				<img src="./imagens/google-play-badge.png" alt="Baixe na Play Store!" width="100%" height="185px">
+				<img src="./imagens/apple.svg" alt="Baixe na App Store!" width="100%" height="150px">
+			</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<div class="col-md-12 row">
@@ -111,40 +194,6 @@
 		</div>
 	</div>
 
-	<div class="jumbotron jumbotron-fluid bg-dark text-white">
-		<div class="container">
-			<h1>Através do nosso aplicativo você concorre a  brindes exclusivos!</h1>
-			<p>Baixe ele agora mesmo</p>
-			<div class="row">
-			<div class="col">
-				<div class="card bg-white text-dark col m-0">
-					<div class="card-body">
-						<h5 class="card-title">Inscreva-se</h5>
-						<form class="text-left">
-							<div class="form-group">
-								<label for="inputNome">Nome</label>
-								<input type="text" class="form-control" id="inputNome" placeholder="Digite seu Nome">
-							</div>
-							<div class="form-group">
-								<label for="inputEmail">E-mail</label>
-								<input type="email" class="form-control" id="inputEmail" placeholder="Digite seu E-mail">
-							</div>
-							<div class="form-group">
-								<label for="inputDataNascimento">Data de Nascimento</label>
-								<input type="date" class="form-control" id="inputDataNascimento">
-							</div>
-							<button type="submit" class="btn btn-primary col">Enviar</button>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<img src="./imagens/google-play-badge.png" alt="Baixe na Play Store!" width="450px" height="185px">
-				<img src="./imagens/apple.svg" alt="Baixe na App Store!" width="400px" height="150px">
-			</div>
-			</div>
-		</div>
-	</div>
 
 <footer class="container-fluid w-100 bg-dark text-light py-3">
 	<ul class="nav justify-content-center">
@@ -174,6 +223,50 @@
  crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
  crossorigin="anonymous">
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#contact-form").on("submit",function(e){
+        e.preventDefault();
+        if ($("#contact-form [name='your_email']").val() === '')
+        {
+          $("#contact-form [name='your_email']").css("border","1px solid red");
+        }
+        else
+        {
+          $("#loading-img").css("display","block");
+          var sendData = $( this ).serialize();
+          $.ajax({
+            type: "POST",
+            url: "http://localhost/modules/lead/get_response.php",
+            data: sendData,
+            success: function(data){
+              $("#loading-img").css("display","none");
+              $(".response_msg").text(data);
+              $(".response_msg").slideDown().fadeOut(9000);
+              $("#contact-form").find("input[type=text], input[type=email], textarea").val("");
+            }
+
+          });
+        }
+      });
+
+      $("#contact-form input").blur(function(){
+        var checkValue = $(this).val();
+        if(checkValue != '')
+        {
+          $(this).css("border","1px solid #eeeeee");
+        }
+      });
+    });
+  </script>
+
+
+
+
 
 </body>
 
