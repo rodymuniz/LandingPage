@@ -1,6 +1,28 @@
 /* Import Montserrat font from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
 
+
+
+#destaque {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+.titulo-destaque {
+  margin-bottom: 25px;
+  font-family: inherit;
+  color: #17757c;
+}
+
+#destaque p {
+  margin-top: 15px;
+  text-align: justify;
+}
+
+
+
+
 /* Formatação para body
 body{
   margin: 0px;
