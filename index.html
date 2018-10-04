@@ -4,7 +4,7 @@
 <head>
 	<title>Citroën Cactus 2018</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="./css/estilos.css" type="text/css">
+	<!-- <link rel="stylesheet" href="./css/estilos.css" type="text/css"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
@@ -99,16 +99,18 @@
 					<div class="col-12 p-0 pr-1 text-black mt-4">
 						<div class="form-group px-1 text-left col-12">
 							<label for="inputNome">Nome</label>
-							<input type="text" id="inputNome" name="inputNome" class="form-control" placeholder="Nome" title="Digite seu nome">
+							<input type="text" id="inputNome" name="inputNome" class="form-control" placeholder="Nome" title="Digite seu nome"
+							 ng-model="cliente.nome" required>
 						</div>
 						<div class="form-group px-1 text-left col-12">
 							<label for="inputEmail">E-mail</label>
-							<input type="text" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" title="Digite seu email">
+							<input type="text" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" title="Digite seu email"
+							 ng-model="cliente.email" required>
 						</div>
 						<div class="form-group px-1 text-left col-12">
 							<label for="inputDataNascimento">Data de Nascimento</label>
 							<input type="date" id="inputDataNascimento" name="inputDataNascimento" class="form-control" placeholder="Data de Nascimento"
-							 title="Digite sua data de nascimento">
+							 title="Digite sua data de nascimento" ng-model="cliente.dataNascimento" required>
 						</div>
 					</div>
 				</div>
@@ -120,7 +122,7 @@
 					</div>
 				</div>
 				<div class="col align-self-center pt-3">
-					<button type="button" class="btn btn-info col-12" data-toggle="modal" data-target="#modal" title="Cadastrar">
+					<button class="btn btn-info col-12" onclick="redirect()" id="cadastrar" title="Cadastrar">
 						Cadastrar
 					</button>
 				</div>
@@ -163,7 +165,7 @@
 	</section>
 
 	<!-- Modal -->
-	<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+	<!-- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -204,7 +206,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<footer class="container-fluid w-100 text-light py-3" style="background: #6e6e6e">
 		<ul class="nav justify-content-center">
@@ -240,6 +242,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	 crossorigin="anonymous">
+	<script src="js/js.js"></script>
 
 	<script>
 		window.onscroll = function () { scrollFunction() };
@@ -253,7 +256,8 @@
 		function topFunction() {
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
-		}
+		};
+
 	</script>
 </body>
 
