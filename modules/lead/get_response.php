@@ -15,8 +15,13 @@ if((isset($_POST['your_email'])&& $_POST['your_email'] !=''))
 	{
 	
 	$yourEmail = $conn->real_escape_string($_POST['your_email']);
+	$yourDate = $conn->real_escape_string($_POST['your_date']);
+	$yourName = $conn->real_escape_string($_POST['your_name']);
+	
 
-	$sql="INSERT INTO leads (cliente_email, lead_id ) VALUES ('".$yourEmail."','')";
+	$sql="INSERT INTO leads (dataNascimento, email , nome, id ) VALUES ('".$yourDate."','
+																		".$yourEmail."','
+																		".$yourName."','')";
 
 
 	if(!$result = $conn->query($sql)){

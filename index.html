@@ -89,7 +89,7 @@
 			<h2 class="text-white">Encontre as <strong>concessionárias e feiras</strong> mais próximas e <br>concorra a brindes
 				exclusivos!</h2><br>
 			<h5 class="text-white" style="margin-bottom: 45px">Baixe Gratuitamete o aplicativo MyCactus!</h5>
-			<form class="border rounded bg-light row py-4 px-1 mx-1 px-sm-3 mx-sm-3 px-lg-5 mx-lg-5" name="formCadastro" id="formCadastro">
+			<form class="border rounded bg-light row py-4 px-1 mx-1 px-sm-3 mx-sm-3 px-lg-5 mx-lg-5" name="formCadastro" id="formCadastro" action="./modules/lead/get_response.php">
 				<div class="form-row col-md-12 col-lg-12">
 					<div class="col-12 p-0 pr-1 text-black">
 						<h4 class="text-center">Preencha abaixo para baixar gratuitamente o aplicativo</h4>
@@ -99,17 +99,17 @@
 					<div class="col-12 p-0 pr-1 text-black mt-4">
 						<div class="form-group px-1 text-left col-12">
 							<label for="inputNome">Nome</label>
-							<input type="text" id="inputNome" name="inputNome" class="form-control" placeholder="Nome" title="Digite seu nome"
+							<input type="text" id="inputNome" name="your_name" class="form-control" placeholder="Nome" title="Digite seu nome"
 							 ng-model="cliente.nome" required>
 						</div>
 						<div class="form-group px-1 text-left col-12">
 							<label for="inputEmail">E-mail</label>
-							<input type="text" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" title="Digite seu email"
+							<input type="text" id="inputEmail" name="your_email" class="form-control" placeholder="Email" title="Digite seu email"
 							 ng-model="cliente.email" required>
 						</div>
 						<div class="form-group px-1 text-left col-12">
 							<label for="inputDataNascimento">Data de Nascimento</label>
-							<input type="date" id="inputDataNascimento" name="inputDataNascimento" class="form-control" placeholder="Data de Nascimento"
+							<input type="date" id="inputDataNascimento" name="your_date" class="form-control" placeholder="Data de Nascimento"
 							 title="Digite sua data de nascimento" ng-model="cliente.dataNascimento" required>
 						</div>
 					</div>
@@ -122,7 +122,7 @@
 					</div>
 				</div>
 				<div class="col align-self-center pt-3">
-					<button class="btn btn-info col-12" onclick="redirect()" id="cadastrar" title="Cadastrar">
+					<button class="btn btn-info col-12" type="submit">
 						Cadastrar
 					</button>
 				</div>
